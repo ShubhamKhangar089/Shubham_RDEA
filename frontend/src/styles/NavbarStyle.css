@@ -1,0 +1,121 @@
+.nav-container {
+    /* position: sticky;
+    top:0px; */
+    background-color: #0f2259;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:100vw;
+    max-height: fit-content;
+  }
+  
+  .nav-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+    text-decoration: wavy;
+  }
+  
+  .logout-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .logout-button:hover {
+    background-color: #a4b6f2;
+  }
+  
+/* notification.css */
+.material-symbols-outlined {
+  font-size: 24px;
+  color: #f97979;
+}
+
+.material-symbols-outlined:hover {
+  color: #f6f6f6;
+  transform: scale(1.5);
+  margin-left: 15px;
+}
+  
+  /* Responsive design */
+
+  @media (min-width: 768px) {
+    .nav-container {
+      padding: 1.5rem;
+    }
+    .nav-links {
+      flex-wrap: wrap;
+    }
+    .nav-link {
+      margin-right: 30px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .nav-container {
+      padding: 2rem;
+    }
+    .nav-links {
+      flex-wrap: nowrap;
+    }
+    .nav-link {
+      margin-right: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-container {
+      padding: 1rem;
+      flex-direction: row;
+    }
+    .nav-brand {
+      font-size: 1.2rem;
+    }
+    .nav-links {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      /* align-items: flex-start; */
+      text-align: center;
+      border : 1px solid black;
+    }
+    .nav-link {
+      margin-right: 0;
+      text-align: center;
+      border : 1px solid black;
+      /* text-align: center; */
+    }
+    .logout-button {
+      width: 60%;
+      margin: 10px;
+      padding: 5px 10px;
+      font-size: 15px;
+      border-radius: 10px;
+    }
+  }

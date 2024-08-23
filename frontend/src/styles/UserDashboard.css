@@ -1,0 +1,133 @@
+.dashboard {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive design */
+  
+  /* Medium screen size (tablet) */
+  @media only screen and (max-width: 768px) {
+    .dashboard {
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .create-form input[type="text"], .create-form textarea {
+      width: 90%;
+    }
+    .document-list {
+      padding: 0 10px;
+    }
+    .document-item {
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Small screen size (mobile) */
+  @media only screen and (max-width: 480px) {
+    .dashboard {
+      max-width: 400px;
+      margin: 10px auto;
+    }
+    .create-form input[type="text"], .create-form textarea {
+      width: 80%;
+    }
+    .document-list {
+      padding: 0 5px;
+    }
+    .document-item {
+      padding: 10px 15px;
+    }
+    .btn {
+      padding: 5px 10px;
+    }
+  }
+  
+  .create-form {
+    margin-bottom: 20px;
+  }
+  
+  .create-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .create-form input[type="text"], .create-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .create-form button[type="submit"] {
+    background-color: #354936;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-form button[type="submit"]:hover {
+    background-color: #262a9a;
+  }
+  
+  .document-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .document-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .document-item:last-child {
+    border-bottom: none;
+  }
+  
+  .document-title {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .rename-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .btn-secondary {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #23527c;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 20px;
+  }
